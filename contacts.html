@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakti</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <nav>
+            <ul class="nav">
+                <li class="elb"><a href="index.html">Sākums</a></li>
+                <li class="elb"><a href="services.html">Pakalpojumi</a></li>
+                <li class="elb"><a href="projects.html">Projekti</a></li>
+                <li><a href="contacts.html">Kontakti</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="contacts">
+            <h1>Kontakti</h1>
+            <p>Ričards</p>
+            <p>Tel.nr xxxxxxxxx</p>
+            <p>Email : Ricards@rg.id.lv</p>
+            <h3>Atrašanās vieta</h3>
+            <br>
+        </div>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var rnd = {lat: 56.9554285, lng: 24.1174189};
+                var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: rnd});
+                var marker = new google.maps.Marker({position: rnd, map: map})
+            }
+        </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+        </script>
+    </div>
+</div>
+</body>
+</html>

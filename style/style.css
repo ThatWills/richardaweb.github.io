@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.top {
+    width: 100%;
+    height: 50%;
+    background-color: #759C63;
+    border-bottom: 5px solid black;
+}
+
+#square {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 2px solid magenta;
+    border-radius: 5px;
+    margin: 20px 0 0 30px;
+    float: left;
+    background-image: url("../imgs/logo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.navbar nav {
+    text-align: center;
+}
+
+.navbar li {
+    float: left;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.elb {
+    border-right: 2px solid black;
+}
+
+.bottom {
+    width: 100%;
+    height: 50%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#services {
+    background-color: #DDDDDD;
+}
+
+#projects {
+    background-color: #CCCCCC;
+}
+
+#projects .box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-block {
+    margin-bottom: 15px;
+}
+
+#map {
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+    background-color: gray;
+}
+
